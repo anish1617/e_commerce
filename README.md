@@ -4,8 +4,8 @@ Ecommerce project made using React, Material-UI, Commerce.js, Stripe. This proje
 # Getting Started
 
 ## Install Dependencies
-... bash
+``` bash
   npm install @material-ui/core @material-ui/icons @chec/commerce.js @stripe/react-stripe-js @stripe/stripe-js react-router-dom react-hook-form
-...
+```
 
 
