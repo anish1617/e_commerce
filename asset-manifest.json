@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "//github.com/anish1617/e_commerce/static/css/main.073c9b0a.css",
-    "main.js": "//github.com/anish1617/e_commerce/static/js/main.8aeb027b.js",
-    "static/js/787.8f360ba4.chunk.js": "//github.com/anish1617/e_commerce/static/js/787.8f360ba4.chunk.js",
-    "static/media/logo.svg": "//github.com/anish1617/e_commerce/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "//github.com/anish1617/e_commerce/index.html",
-    "main.073c9b0a.css.map": "//github.com/anish1617/e_commerce/static/css/main.073c9b0a.css.map",
-    "main.8aeb027b.js.map": "//github.com/anish1617/e_commerce/static/js/main.8aeb027b.js.map",
-    "787.8f360ba4.chunk.js.map": "//github.com/anish1617/e_commerce/static/js/787.8f360ba4.chunk.js.map"
+    "main.css": "/e_commerce/static/css/main.073c9b0a.css",
+    "main.js": "/e_commerce/static/js/main.42203337.js",
+    "static/js/787.8f360ba4.chunk.js": "/e_commerce/static/js/787.8f360ba4.chunk.js",
+    "static/media/logo.svg": "/e_commerce/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/e_commerce/index.html",
+    "main.073c9b0a.css.map": "/e_commerce/static/css/main.073c9b0a.css.map",
+    "main.42203337.js.map": "/e_commerce/static/js/main.42203337.js.map",
+    "787.8f360ba4.chunk.js.map": "/e_commerce/static/js/787.8f360ba4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.8aeb027b.js"
+    "static/js/main.42203337.js"
   ]
 }
