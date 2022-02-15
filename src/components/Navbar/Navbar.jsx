@@ -4,22 +4,28 @@ import {
   Toolbar,
   IconButton,
   Badge,
-  MenuItem,
-  Menu,
   Typography,
 } from "@material-ui/core";
 
 import { ShoppingCart } from "@material-ui/icons";
 import logo from "../../assets/commerce.png";
 import useStyles from "./style.js";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = ({ totalItems }) => {
   const classes = useStyles();
+  const location = useLocation();
+
   return (
     <>
       <AppBar position="fixed" className={classes.appBar} color="inherit">
         <Toolbar>
-          <Typography variant="h6" className={classes.title}>
+          <Typography
+            component={Link}
+            to="/"
+            variant="h6"
+            className={classes.title}
+          >
             <img
               src={logo}
               alt="E-commerce"
@@ -29,13 +35,23 @@ const Navbar = ({ totalItems }) => {
             E-Commerce
           </Typography>
           <div className={classes.grow} />
-          <div className={classes.button}>
-            <IconButton aria-label="Show Cart Items" color="inherit">
-              <Badge badgeContent={totalItems} color="secondary">
-                <ShoppingCart />
-              </Badge>
-            </IconButton>
-          </div>
+          {/* Check if location is on the same page i.e '/' then 
+  we show the card if it is different than the root route
+   then we don't show anything  */}
+          {location.pathname === "/" && (
+            <div className={classes.button}>
+              <IconButton
+                component={Link}
+                to="/cart"
+                aria-label="Show Cart Items"
+                color="inherit"
+              >
+                <Badge badgeContent={totalItems} color="secondary">
+                  <ShoppingCart />
+                </Badge>
+              </IconButton>
+            </div>
+          )}
         </Toolbar>
       </AppBar>
     </>
