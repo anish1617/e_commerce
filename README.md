@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# Ecommerce Website using React and Commerce Js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple web commerce app where there is products with cart, checkout functionality. Implemented commerce api for adding, deleting, editing and emptying the cart items. As for the checkout Stripe payment method is integrated.
 
-## Available Scripts
+## Learning and Implementation on this project
 
-In the project directory, you can run:
+Learned and Implemented the React Basics like react components, react-hooks, react-router-dom, react-form-hooks, useState, useEffect, asynchoronous function, commerce js api, stripe payment function, and for the UI i used Material UI.
 
-### `npm start`
+### Install Dependencies with npm
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+npm install @material-ui/core @material-ui/icons @chec/commerce.js @stripe/react-stripe-js @stripe/stripe-js react-router-dom react-hook-form
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Demo Images
 
-### `npm test`
+<details>
+ <summary>Homepage</summary>
+ <p>
+   
+![dashboard_large](https://i.ibb.co/cCCpMY8/homepage.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</p>
+</details>
 
-### `npm run build`
+<details>
+ <summary>Cart</summary>
+ <p>
+   
+![dashboard_large](https://i.ibb.co/h7QQ959/cart.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+</p>
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+ <summary>Checkout Form</summary>
+ <p>
+   
+![dashboard_large](https://i.ibb.co/WzDWtYN/Checkout-Form.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+</p>
+</details>
 
-### `npm run eject`
+<details>
+ <summary>Payment</summary>
+ <p>
+   
+![dashboard_large](https://i.ibb.co/hyCgZg4/Payment.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+</p>
+</details>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<details>
+ <summary>Payment Success</summary>
+ <p>
+   
+![dashboard_large](https://i.ibb.co/xhrQTTg/purchase-Successful.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+</p>
+</details>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Quick Note
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Stripe Payment gateway functionality is coded but due to unavailability of credit card, the commerce js integration with stripe payment gateway could not be seen in this project, so Successful purchase is just hard coded.
 
-### Code Splitting
+## Resources for successfully completing the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Check out material-ui documentation [MUI](https://mui.com/).
 
-### Analyzing the Bundle Size
+Check out commerce js documentation [Commercejs](https://commercejs.com/docs/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Check out Stripe documentation [Stripe](https://stripe.com/docs).
 
-### Making a Progressive Web App
+Check out Reactjs documentation [Reactjs](https://reactjs.org/docs/getting-started.html).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Check out React-hook-form documentation [react-hook-form](https://react-hook-form.com/).
 
-### Advanced Configuration
+Check out React Router documentation [React Router](https://v5.reactrouter.com/web/guides/quick-start).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Hosted on
 
-### Deployment
+#### **Click on the icon to see Project Demo**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+[<img loading="lazy" alt="GitHub" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" height="25">](https://anish1617.github.io/e_commerce/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub allows us to host the Git repository and coordinate contributions.
+
+[<img loading="lazy" alt="Netlify" src="https://cdn.netlify.com/15ecf59b59c9d04b88097c6b5d2c7e8a7d1302d0/1b6d6/img/press/logos/full-logo-light.svg" height="30">](https://commercejsreactproject.netlify.app/)
+
+Netlify allows us to deploy app faster.
+
